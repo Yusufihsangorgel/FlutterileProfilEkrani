@@ -1,5 +1,5 @@
+import 'package:deneme/myprofile_extension.dart';
 import 'package:flutter/material.dart';
-import 'package:myprofile/myprofile.dart';
 
 void main() => runApp(const MyApp());
 
@@ -17,7 +17,7 @@ class MyApp extends StatelessWidget {
         backgroundColor: Colors.transparent,
         elevation: 0,
       )),
-      home: const MyProfile(),
+      home: MyProfile(),
     );
   }
 }
