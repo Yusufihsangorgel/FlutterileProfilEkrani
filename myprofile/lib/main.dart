@@ -1,4 +1,4 @@
-import 'package:deneme/myprofile_extension.dart';
+import 'package:myprofile/myprofile_extension.dart';
 import 'package:flutter/material.dart';
 
 void main() => runApp(const MyApp());
